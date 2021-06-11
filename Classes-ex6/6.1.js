@@ -5,16 +5,20 @@ const readlineSync = require("readline-sync");
 
 class Circle{
     constructor(xPos,yPos,radius){
-        this.xPos = 5;
-        this.yPos = 5;
-        this.radius = 2;
+        this.xPos = xPos;
+        this.yPos = yPos;
+        this.radius = radius;
+    }
+    moveBy(xOffset,yOffset){
+        this.xPos += xOffset;
+        this.yPos += yOffset;
+    }
+    get surface(){
+    
+        return Math.PI * this.radius * this.radius;
     }
 }
 
-moveBy(xOffset,yOffset);
-
-get surface(){
-    
-    return Math.PI * this.radius * this.radius;
-}
+const Circle1 = new Circle (2, 6, 9);
+console.log (Circle1.surface);
 
