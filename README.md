@@ -1,29 +1,28 @@
-# algo-js
-Algorithmics with JavaScript
-SOLO
-Deadline : 14/06/2021, 17h00;
-Training goals
-Algorithmics is the very base of the developer job. We will learn it with the JavaScript language.
+# Project done during BECODE learning process
+
+
+## Algorithmics with JavaScript
+
 
 At the end of this training the trainee will have mastered the following aspect of JavaScript:
 
-Variables
-Operators
-Arrays
-Control Structures
-Functions
-Objects
-Classes
+* Variables
+* Operators
+* Arrays
+* Control Structures
+* Functions
+* Objects
+* Classes
 The trainee will then be able to begin its learning of JavaScript in the context of Web Development.
 
-Guidelines for all exercises
+### Guidelines for all exercises
 Before beginning the exercises create a public Github repository in your Github account named algo-js.
 
 For each exercise create a .js file named like the the number of the exercise. Example: 1.1.js. Commit and push your git repository after each exercise.
 
 This directive is important both to make you practice git and to allow us to follow your progression in the exercises.
 
-Program
+### Program
 Algorithmics with JavaScript 01 - Introduction
 Algorithmics with JavaScript 02 - Control structures
 Algorithmics with JavaScript 03 - Arrays
